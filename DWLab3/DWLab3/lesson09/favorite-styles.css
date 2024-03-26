@@ -1,0 +1,142 @@
+@charset "UTF-8";
+.bg-dark {
+    background-color: #eedd66 !important;
+}
+.navbar-dark .navbar-nav .nav-link  {
+    font-family: source-sans-pro;
+    color: #006699;
+    font-style: normal;
+    font-weight: 200;
+}
+.navbar-nav .nav-item {
+    border: 1px solid #ffff33;
+    background-image: -webkit-linear-gradient(270deg,rgba(238,221,0,1.00) 0%,rgba(255,255,51,1.00) 100%);
+    background-image: linear-gradient(180deg, #eedd00 0%, #ffff33 100%);
+    width: 108px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+}
+header h2 {
+    font-family: Impact;
+    color: #eedd66;
+    font-size: 350%;
+    text-shadow: 0px 5px 11.05px rgba(0, 0, 0, 0.56);
+    text-align: center;
+    line-height: 1.2em;
+    letter-spacing: 0.12em;
+    margin-top: 1em;
+}
+header h2 a:link, header h2 a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+.container .navbar-brand {
+    display: none;
+}
+
+
+header p {
+    font-family: source-sans-pro;
+    color: #ffffff;
+    font-size: 150%;
+    font-weight: 700;
+    text-shadow: 0px 3px 5.95px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    line-height: 1em;
+    letter-spacing: 0.4em;
+    font-style: normal;
+}
+header {
+    background-color: #EEDD55;
+    background-image: url(images/favcity-logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80% auto;
+    height: 212px;
+}
+nav .container {
+    border-bottom: 2px solid #FF3;
+    padding-bottom: 10px;
+}
+body {
+    border-right: 15px solid #ED5;
+    border-left: 15px solid #ED5;
+}
+footer {
+    padding-top: 5px;
+    background-color: #ED5;
+    color: #069;
+}
+address {
+    color: #069;
+}
+table {
+    font-size: 90%;
+    width: 95%;
+    margin-bottom: 2em;
+    border-bottom: 3px solid #069;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 4px;
+    text-align: left;
+    border-top: 1px solid #069;
+}
+th {
+    color: #FFC;
+    text-align: center;
+    border-bottom: 6px solid #046;
+    background-color: #069;
+}
+.date {
+    width: 25%;
+}
+.seminar {
+    width: 25%;
+}
+.event {
+    width: 45%;
+}
+.description {
+    width: 45%;
+}
+.location {
+}
+.cost {
+    width: 10%;
+    text-align: center;
+}
+.length {
+    width: 10%;
+    text-align: center;
+}
+.day {
+    width: 10%;
+    text-align: center;
+}
+.seminar {
+}
+table caption {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    color: #069;
+    font-size: 160%;
+    font-weight: bold;
+    line-height: 1.2em;
+    text-align: center;
+    caption-side: top;
+}
+.profile {
+    border-left: 3px solid #069;
+    border-bottom: 10px solid #069;
+}
+.carousel-caption {
+    font-size: 130%;
+    font-weight: 700;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.carousel-caption h5 {
+    font-size: 130%;
+    font-weight: 700;
+}
